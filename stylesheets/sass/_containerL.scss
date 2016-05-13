@@ -1,0 +1,12 @@
+@import "colors";
+
+#container2-fluid{
+  border: {
+    width: .15em;
+    style: solid;
+    color: $bordercolor;
+    radius: 3px;
+  }
+  background-color: $leftbackcolor;
+  text-align: center;
+}

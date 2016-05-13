@@ -1,0 +1,24 @@
+@import "colors";
+
+
+nav {
+  text-align:left;
+
+  ul{
+    border: {
+    width:.15em;
+    style: solid;
+    color:$bordercolor;
+    radius:3px;
+    }
+    padding: 1.25px 0 1.25px 1em;
+    background-color: $navcolor;
+  }
+  li{
+    display:inline-block;
+  }
+
+
+
+
+}
