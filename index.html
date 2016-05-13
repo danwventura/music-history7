@@ -1,0 +1,79 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Music History</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" type= "text/css" href="css/main.css">
+
+</head>
+
+<body>
+  <div id="container1-fluid" class ="col-md-8 col-md-offset-2">
+        <nav>
+          <ul>
+            <li class="navbar"><a href="View Music"> View Music</a></li>
+            <li class="navbar"><a href="Add Music"> Add Music</a></li>
+            <li class="navbar"><a href="Profile"> Profile</a></li>
+          </ul>
+        </nav>
+  </div>
+  
+  <div id="container2-fluid" class="col-md-offset-2 col-md-3">
+
+    
+
+      <label for="Song Length:">Song Length:</label>
+      
+      <div><input type="range" placeholder="Song Length"></div>      
+      
+      <p>Artist:</p>
+      <select name="Artist">
+        <option value="Strumbellas">The Strumbellas</option>
+        <option value="ZZ">ZZ Top</option>
+        <option value="Super">Super Tramp</option>
+        <option value="Pink">Pink Floyd</option>
+      </select>
+      
+      <p> Album: </p>
+      <select name="Album">
+        <option value="TBA">TBA</option>
+        <option value="Elim">Eliminator</option>
+        <option value="Breakfast">Breakfast in America</option>
+        <option value="Wall">The Wall</option>
+      </select>
+      
+      <div><label for="Genre">Genre:</label></div>
+
+      <div><input type="checkbox">Rock <input type="checkbox">Classical</div>
+      <div><input type="checkbox">Pop   <input type="checkbox">Jazz</div>
+      <div><input type="checkbox">Blues<input type="checkbox">Hip Hop</div>
+      <div><button type="Submit" class="filter">Filter</button></div>
+    
+  </div>
+
+
+  <div id="container3-fluid" class="col-md-5">
+      <div id="list-view">
+
+      </div>
+      <div id="secondOutput">
+      
+      </div>
+      <input type="button" id="moreButton" value="More"></input>
+  </div>
+
+     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="explosives.js"></script>
+  <script type="text/javascript" src="javascripts/mh7.js"></script>
+ 
+
+  </body>
+
+
+
+</html>
