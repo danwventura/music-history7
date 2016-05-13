@@ -1,0 +1,32 @@
+body {
+  background-color: #fff; }
+
+nav {
+  text-align: left; }
+  nav ul {
+    border-width: .15em;
+    border-style: solid;
+    border-color: #000;
+    border-radius: 3px;
+    padding: 1.25px 0 1.25px 1em;
+    background-color: #e0b1ba; }
+  nav li {
+    display: inline-block; }
+
+#container2-fluid {
+  border-width: .15em;
+  border-style: solid;
+  border-color: #000;
+  border-radius: 3px;
+  background-color: #58e3f5;
+  text-align: center; }
+
+#container3-fluid {
+  border-width: .15em;
+  border-style: solid;
+  border-color: #000;
+  border-radius: 3px;
+  background-color: #fafab4;
+  height: 267px;
+  padding: 5% 5% 1% 7.5%;
+  overflow: scroll; }
