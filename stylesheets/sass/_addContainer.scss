@@ -1,0 +1,12 @@
+@import "colors";
+
+#container4-fluid-add-view{
+  border: {
+  width: .15em;
+  style: solid;
+  color: $bordercolor;
+  radius: 3px;
+  }
+  background-color: $addmusic;
+
+}
